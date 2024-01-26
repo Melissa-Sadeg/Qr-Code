@@ -3,6 +3,10 @@ body{
    background-color: var(--gray); 
    font-family: 'Outfit', sans-serif;
    text-align: center;
+   
+   display:grid;
+   place-items:center;
+   min-height:100vh;
 
 }
 :root{
@@ -31,7 +35,11 @@ img{
     height: 497px;
     background-color: var(--White); 
     border-radius: 20px;
+    padding:16px;
 }
-    
+.text{
+    padding:16px;
+}
+
     
     
